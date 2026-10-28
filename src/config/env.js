@@ -1,5 +1,6 @@
 import 'dotenv/config'
 
+export const post = Number(process.env.PORT || 3000)
 export const database = {
     host: process.env.DB_HOST || 'localhost',
     port: Number(process.env.DB_PORT || 3306),
